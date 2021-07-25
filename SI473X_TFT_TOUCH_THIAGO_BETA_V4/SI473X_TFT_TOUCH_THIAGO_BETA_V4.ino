@@ -88,8 +88,8 @@ const uint16_t size_content = sizeof ssb_patch_content; // see ssb_patch_content
 #define ESP32_I2C_SDA    21  // I2C bus pin on ESP32
 #define ESP32_I2C_SCL    22  // I2C bus pin on ESP32
 #define RESET_PIN        12
-#define ENCODER_PIN_A    17  // http://www.buxtronix.net/2011/10/rotary-encoders-done-properly.html
-#define ENCODER_PIN_B    16
+#define ENCODER_PIN_A    16  // http://www.buxtronix.net/2011/10/rotary-encoders-done-properly.html
+#define ENCODER_PIN_B    17
 #define ENCODER_SWITCH   33
 #define BEEPER           32
 #define Display_Led      14
