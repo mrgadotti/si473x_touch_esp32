@@ -620,7 +620,7 @@ Band band[] = {
   {   "FM", FM_BAND_TYPE,  FM,  8750, 10800,  9890,10}, //  FM          0
   {   "LW", LW_BAND_TYPE,  AM,   153,   279,   198, 1}, //  LW          1
   {   "MW", MW_BAND_TYPE,  AM,   520,  1710,  1000,10}, //  MW          2
-  { "ALL", LW_BAND_TYPE,  AM,   150, 30000,   284, 1}, // All/LW/MW/SW 3
+  { "ALL", SW_BAND_TYPE,  AM,   2300, 30000,   10000, 1}, // All/SW 
   {  "630", SW_BAND_TYPE, LSB,   472,   479,   475, 1}, // Ham  630M    4
   { "160M", SW_BAND_TYPE, LSB,  1800,  1910,  1899, 1}, // Ham  160M    5
   {  "120M", SW_BAND_TYPE,  AM,  1920,  3200,  2400, 5}, //      120M    6
